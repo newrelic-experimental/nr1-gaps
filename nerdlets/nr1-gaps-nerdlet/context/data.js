@@ -77,7 +77,7 @@ export class DataProvider extends Component {
     return new Promise(resolve => {
       try {
         fetch(
-          'https://raw.githubusercontent.com/newrelic-experimental/nr1-gaps/main/integrations.json'
+          'https://raw.githubusercontent.com/newrelic-experimental/nr1-gaps/master/integrations.json'
         )
           .then(response => response.json())
           .then(integrations =>
