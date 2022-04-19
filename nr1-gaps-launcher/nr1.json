@@ -1,0 +1,7 @@
+{
+    "schemaType": "LAUNCHER",
+    "id": "nr1-gaps-launcher",
+    "displayName": "Active Gap Detector",
+    "description": "Discover Active Gaps",
+    "rootNerdletId": "nr1-gaps-nerdlet"
+}
