@@ -62,7 +62,7 @@ function GapDetector() {
   return (
     <>
       <TagModal />
-      <Layout>
+      <Layout style={{ paddingLeft: '10px', paddingTop: '5px' }}>
         <LayoutItem>
           <Stack directionType={Stack.DIRECTION_TYPE.VERTICAL} fullWidth>
             <StackItem style={{ width: '100%' }}>
